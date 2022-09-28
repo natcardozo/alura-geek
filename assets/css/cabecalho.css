@@ -41,6 +41,10 @@
     width: 320px;
 }
 
+.busca__input:focus {
+    outline: none;
+}
+
 .busca__icone {
     margin-right: 20px;
     width: 24px;
