@@ -2,12 +2,15 @@
 @import url("./assets/css/reset.css");
 @import url("./assets/css/cabecalho.css");
 @import url("./assets/css/banner.css");
+@import url("./assets/css/produtos.css");
+@import url("./assets/css/rodape.css");
 
 :root {
     --azul: #2A7AE4;
     --azul-claro: #EAF2FD;
     --branco: #FFFFFF;
     --cinza-claro: #F5F5F5;
+    --cinza-medio: #A2A2A2;
     --preto: #464646;
 
     --fonte: 'Raleway', sans-serif;
@@ -16,4 +19,5 @@
 
 body {
     background-color: var(--cinza-claro);
+    overflow-x: hidden;
 }

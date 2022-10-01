@@ -1,0 +1,123 @@
+.rodape {
+    background-color: var(--azul-claro);
+}
+
+.rodape__fale-conosco {
+    width: 1136px;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.institucional {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.institucional__logo {
+    width: 176px;
+}
+
+.institucional__links {
+    color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte);
+    font-size: 16px;
+    height: 234px;
+    justify-content: space-between;
+}
+
+.institucional__links a {
+    text-decoration: none;
+}
+
+.institucional__links a:visited {
+    color: var(--preto);
+}
+
+.fale-conosco {
+    width: 560px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fale-conosco__titulo {
+    color: var(--preto);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: var(--negrito);
+}
+
+.fale-conosco__item {
+    background-color: var(--branco);
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 #C8C8C8;
+}
+
+.fale-conosco__label {
+    line-height: 16px;
+    font-size: 12px;
+    font-family: var(--fonte);
+    color: var(--cinza-medio);
+    display: flex;
+    flex-direction: column;
+}
+
+.fale-conosco__input {
+    border: none;
+    font-family: var(--fonte);
+    font-size: 16px;
+}
+
+.fale-conosco__input:focus {
+    outline: none;
+}
+
+.fale-conosco__input::placeholder {
+    color: var(--cinza-medio);
+}
+
+.fale-conosco__textarea {
+    border: none;
+    font-family: var(--fonte);
+    font-size: 16px;
+    height: 60px;
+    max-height: 60px;
+    max-width: 536px;
+}
+
+.fale-conosco__textarea:focus {
+    outline: none;
+}
+
+.fale-conosco__textarea::placeholder {
+    color: var(--cinza-medio);
+}
+
+.fale-conosco__botao {
+    background-color: var(--azul);
+    border: none;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+    width: 165px;
+}
+
+.rodape__direitos {
+    background-color: var(--branco);
+    color: var(--preto);
+    font-family: var(--fonte);
+    font-size: 16px;
+    padding: 3rem 0;
+    text-align: center;
+}
