@@ -1,0 +1,12 @@
+.produtos-cadastrados {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produtos-cadastrados div {
+    margin-bottom: 2rem;
+}
+
+.produtos-cadastrados__botao {
+    width: 151px;
+}

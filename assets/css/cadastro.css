@@ -1,0 +1,15 @@
+.cadastro {
+    width: 559px;
+}
+
+.cadastro div {
+    margin-bottom: 1.5rem;
+}
+
+.titulo-grande {
+    color: var(--preto);
+    font-family: var(--fonte);
+    font-size: 32px;
+    font-weight: var(--negrito);
+    margin-bottom: 1.5rem;
+}

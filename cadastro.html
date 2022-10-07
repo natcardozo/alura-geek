@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cadastro de Produto | Alura Geek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo">
+            <div class="cabecalho__esquerda">
+                <a href="index.html">
+                    <img class="cabecalho__logo" src="./assets/imagens/logo.png" alt="Logo da Alura Geek">
+                </a>
+                <div class="cabecalho__busca">
+                    <input class="busca__input" type="text" placeholder="O que deseja encontrar?">
+                    <img class="busca__icone" src="./assets/imagens/icone.png" alt="Buscar produto">
+                </div>
+            </div>
+            <button class="cabecalho__botao" type="button">Menu administrador</button>
+        </div>
+    </header>
+    <main>
+        <div class="formulario-container cadastro">
+            <h3 class="titulo-grande">Adicionar Novo Produto</h3>
+            <div class="fale-conosco__item">
+                <label class="fale-conosco__label">
+                    URL da imagem
+                    <input class="fale-conosco__input" type="text" >
+                </label>
+            </div>
+            <div class="fale-conosco__item">
+                <label class="fale-conosco__label">
+                    Categoria
+                    <input class="fale-conosco__input" type="text">
+                </label>
+            </div>
+            <div class="fale-conosco__item">
+                <label class="fale-conosco__label">
+                    Nome do produto
+                    <input class="fale-conosco__input" type="text">
+                </label>
+            </div>
+            <div class="fale-conosco__item">
+                <label class="fale-conosco__label">
+                    Preço do produto
+                    <input class="fale-conosco__input" type="text">
+                </label>
+            </div>
+            <div class="fale-conosco__item">
+                <label class="fale-conosco__label">
+                    <textarea placeholder="Descrição do produto" class="fale-conosco__textarea" cols="30" rows="10"></textarea>
+                </label>
+            </div>
+            <button type="button" class="fale-conosco__botao botao-grande">Adicionar produto</button>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__fale-conosco">
+            <div class="institucional">
+                <img class="institucional__logo" src="./assets/imagens/logo.png" alt="Logo da Alura Geek">
+                <div class="institucional__links">
+                    <a href="#">Quem somos nós</a>
+                    <a href="#">Política de privacidade</a>
+                    <a href="#">Programa de fidelidade</a>
+                    <a href="#">Nossas lojas</a>
+                    <a href="#">Quero ser franqueado</a>
+                    <a href="#">Anuncie aqui</a>
+                </div>
+            </div>
+            <form class="fale-conosco">
+                <p class="fale-conosco__titulo">Fale conosco</p>
+                <div class="fale-conosco__item">
+                    <label class="fale-conosco__label">
+                        Nome
+                        <input class="fale-conosco__input" type="text" placeholder="Digite seu nome">
+                    </label>
+                </div>
+                <div class="fale-conosco__item">
+                    <label class="fale-conosco__label">
+                        <textarea placeholder="Escreva sua mensagem" class="fale-conosco__textarea" cols="30" rows="10"></textarea>
+                    </label>
+                </div>
+                <button type="button" class="fale-conosco__botao">Enviar Mensagem</button>
+            </form>
+        </div>
+        <div class="rodape__direitos">
+            <p>
+                Desenvolvido por Nathalia Cardozo</br>
+                2022
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

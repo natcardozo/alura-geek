@@ -1,0 +1,24 @@
+.formulario-container {
+    width: 423px;
+    margin: 5rem auto;
+}
+
+.titulo-h3 {
+    color: var(--preto);
+    font-family: var(--fonte);
+    font-size: 18px;
+    font-weight: var(--negrito);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.input-container {
+    height: 63px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.botao-grande {
+    width: 100%;
+}
